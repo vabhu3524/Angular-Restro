@@ -1,0 +1,38 @@
+{
+	"data":
+[
+	{"id":"1","type":"Veg","baseTypeKey":"TC","baseTypeDesc":"Thin Crust","cheeseTypeKey":"CB","cheeseTypeDesc":"Cheese burst","price":"100"},
+	{"id":"2","type":"NonVeg","baseTypeKey":"RB","baseTypeDesc":"Regular base","cheeseTypeKey":"CB","cheeseTypeDesc":"Cheese burst","price":"200"},	
+	{"id":"3","type":"Veg","baseTypeKey":"FB","baseTypeDesc":"Flat bread","cheeseTypeKey":"CT","cheeseTypeDesc":"Cheese topping","price":"600"},
+	{"id":"4","type":"NonVeg","baseTypeKey":"TC","baseTypeDesc":"Thin Crust","cheeseTypeKey":"CB","cheeseTypeDesc":"Cheese burst","price":"500"},
+	{"id":"5","type":"Veg","baseTypeKey":"FB","baseTypeDesc":"Flat bread","cheeseTypeKey":"CT","cheeseTypeDesc":"Cheese topping","price":"400"},
+	{"id":"6","type":"NonVeg","baseTypeKey":"MG","baseTypeDesc":"Multigrain","cheeseTypeKey":"CB","cheeseTypeDesc":"Cheese burst","price":"250"},
+	{"id":"7","type":"Veg","baseTypeKey":"TC","baseTypeDesc":"Thin Crust","cheeseTypeKey":"CT","cheeseTypeDesc":"Cheese topping","price":"300"},
+	{"id":"8","type":"Veg","baseTypeKey":"RB","baseTypeDesc":"Regular base","cheeseTypeKey":"NC","cheeseTypeDesc":"No cheese","price":"550"},
+	{"id":"9","type":"NonVeg","baseTypeKey":"FB","baseTypeDesc":"Flat bread","cheeseTypeKey":"CB","cheeseTypeDesc":"Cheese burst","price":"450"},
+	{"id":"10","type":"Veg","baseTypeKey":"MG","baseTypeDesc":"Multigrain","cheeseTypeKey":"NC","cheeseTypeDesc":"No cheese","price":"500"},
+	{"id":"11","type":"Veg","baseTypeKey":"TC","baseTypeDesc":"Thin Crust","cheeseTypeKey":"NC","cheeseTypeDesc":"No cheese","price":"500"},
+	{"id":"12","type":"Veg","baseTypeKey":"RB","baseTypeDesc":"Regular base","cheeseTypeKey":"CB","cheeseTypeDesc":"Cheese burst","price":"200"},	
+	{"id":"13","type":"Veg","baseTypeKey":"RB","baseTypeDesc":"Regular base","cheeseTypeKey":"CT","cheeseTypeDesc":"Cheese topping","price":"200"},
+	{"id":"14","type":"Veg","baseTypeKey":"TC","baseTypeDesc":"Thin Crust","cheeseTypeKey":"CB","cheeseTypeDesc":"Cheese burst","price":"200"},
+	{"id":"14","type":"NonVeg","baseTypeKey":"TC","baseTypeDesc":"Thin Crust","cheeseTypeKey":"CB","cheeseTypeDesc":"Cheese burst","price":"200"},
+	{"id":"15","type":"NonVeg","baseTypeKey":"FB","baseTypeDesc":"Flat bread","cheeseTypeKey":"CT","cheeseTypeDesc":"Cheese topping","price":"600"}
+	,
+	{"id":"16","type":"NonVeg","baseTypeKey":"TC","baseTypeDesc":"Thin Crust","cheeseTypeKey":"CT","cheeseTypeDesc":"Cheese topping","price":"100"}
+	,
+	{"id":"13","type":"NonVeg","baseTypeKey":"RB","baseTypeDesc":"Regular base","cheeseTypeKey":"CT","cheeseTypeDesc":"Cheese topping","price":"200"}
+
+],
+	"pizzTypes":[
+		{"key":"TC","value":"Thin Crust"},
+		{"key":"RB","value":"Regular base"},
+		{"key":"FB","value":"Flat bread"},
+		{"key":"MG","value":"Multigrain"}
+	],
+	"cheeseTypes":[
+		{"key":"CB","value":"Cheese burst"},
+		{"key":"CT","value":"Cheese topping"},
+		{"key":"NC","value":"No cheese"}
+
+	]
+}

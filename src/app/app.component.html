@@ -1,0 +1,51 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<h1>Assignment 2</h1>
+<input type="text" [(ngModel)]="inputValue">
+
+<div>{{inputValue|numberToText}}</div>
+<hr>
+
+<h1>Assignment 1</h1>
+
+<label>Non Vegg</label>
+<mat-slide-toggle [checked]="bIsVeg" [(ngModel)]="bIsVeg" (change)="onTypeChange()">
+   Vegg
+</mat-slide-toggle>&nbsp;
+
+<mat-form-field>
+  <mat-select placeholder="Base Type" [(ngModel)]="selectedPizzType" (selectionChange)="onTypeChange()">
+    <mat-option *ngFor="let type of arrPizzTypes" [value]="type.key">
+     {{type.value}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+&nbsp;
+<mat-form-field>
+  <mat-select placeholder="Cheese Type" [(ngModel)]="selectedCheeseType" (selectionChange)="onTypeChange()">
+    <mat-option *ngFor="let type of arrCheeseType" [value]="type.key">
+     {{type.value}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+&nbsp;
+  <label>Price Range</label>
+ <div class="divRangeSlider">
+ <ng5-slider [(value)]="minValue" [(highValue)]="maxValue" [options]="options"  (valueChange)="onTypeChange()"></ng5-slider>
+</div>
+<table border="1">
+  <th>Type</th>
+  <th>Base Type</th>
+  <th>Cheese Type</th>
+  <th>Price</th>
+
+  <tr *ngFor="let data of arrFilteredRecords">
+    <td>{{data.type}}</td>
+    <td>{{data.baseTypeDesc}}</td>
+    <td>{{data.cheeseTypeDesc}}</td>
+    <td>{{data.price}}</td>
+  </tr>
+  
+</table>
+
